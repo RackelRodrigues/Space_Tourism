@@ -1,0 +1,12 @@
+:root {
+  /* Colors Base */
+  --blue-900: #0b0d17;
+  --blue-300: #d0d6f9;
+  --white: #ffff;
+  --Grey: #2c2c2c;
+
+  /* typography */
+  --font-Bellefair: "Bellefair", serif;
+  --font-Barlow: "Barlow Condensed", sans-serif;
+  --font-body: "Barlow", sans-serif;
+}

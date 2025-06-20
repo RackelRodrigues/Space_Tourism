@@ -1,0 +1,6 @@
+[
+  { "number": "00", "name": "HOME" },
+  { "number": "01", "name": "DESTINATION" },
+  { "number": "02", "name": "CREW" },
+  { "number": "03", "name": "TECNOLOGIA" }
+]
