@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import tablet from "../../assets/technology/background-technology-tablet.jpg";
-import desktop from "../../assets/technology/background-technology-desktop.jpg";
-import mobile from "../../assets/technology/background-technology-mobile.jpg";
+import tablet from "../../assets/images/technology/background-technology-tablet.jpg";
+import desktop from "../../assets/images/technology/background-technology-desktop.jpg";
+import mobile from "../../assets/images/technology/background-technology-mobile.jpg";
 
 export const Background = styled.div`
   width: 100%;

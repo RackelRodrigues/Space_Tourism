@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import tablet from "../../assets/home/background-home-tablet.jpg";
-import desktop from "../../assets/home/background-home-desktop.jpg";
-import mobile from "../../assets/home/background-home-mobile.jpg";
+import tablet from "../../assets/images/home/background-home-tablet.jpg";
+import desktop from "../../assets/images/home/background-home-desktop.jpg";
+import mobile from "../../assets/images/home/background-home-mobile.jpg";
 
 export const Background = styled.div`
   width: 100%;
@@ -24,6 +24,7 @@ export const Background = styled.div`
     background-size: cover;
     height: 100%;
     padding: 0 0;
+    z-index: 1;
   }
 `;
 

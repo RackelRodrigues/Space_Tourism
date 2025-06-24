@@ -28,6 +28,7 @@ const CardCrew = ({ data }: Props) => {
       setSelectedPerson(data[0]);
     }
   }, [data]);
+
   return (
     <>
       <Container>

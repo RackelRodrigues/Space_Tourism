@@ -28,7 +28,7 @@ const Header: React.FC<Props> = ({ TitlePage }) => {
   return (
     <>
       <Container>
-        <Logo src="/src/assets/shared/logo.svg" alt="logo" />
+        <Logo src="/src/assets/images/shared/logo.svg" alt="logo" />
         {isMobile ? (
           <Sidebar TitlePage={TitlePage} isMobile={isMobile} />
         ) : (

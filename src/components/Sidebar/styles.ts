@@ -10,10 +10,12 @@ export const SidebarContainer = styled.div<SidebarProps>`
   max-width: 25rem;
   min-width: 15rem;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
+  background: rgba(11, 13, 23, 0.3);
+
+  backdrop-filter: blur(40px);
   padding-left: 2rem;
   transition: right 0.3s ease-in-out;
+  z-index: 2;
 
   .ContainerNav {
     width: 100%;
@@ -23,6 +25,8 @@ export const SidebarContainer = styled.div<SidebarProps>`
     align-items: center;
     padding-top: 8rem;
     gap: 2rem;
+    z-index: 10;
+    background-color: transparent;
   }
 `;
 export const ContainerUrl = styled.div`

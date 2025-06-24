@@ -54,6 +54,7 @@ export const Container = styled.div`
     justify-content: center;
 
     margin: 0 auto;
+    padding: 0 0.2rem;
   }
 `;
 
@@ -160,7 +161,8 @@ export const Line = styled.hr`
   }
 
   @media screen and (max-width: 609px) {
-    width: 20.5rem;
+    width: 20rem;
+    align-self: center;
   }
 `;
 
@@ -169,13 +171,17 @@ export const ImagePlanet = styled.img`
   height: 100%;
   max-width: 30rem;
 
-  @media (max-width: 1024px) and (min-width: 768px) {
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
     max-width: 18.5rem;
   }
-
-  @media (max-width: 767px) and (min-width: 374px) {
-    max-width: 10rem;
+  @media screen and (max-width: 609px) {
+    max-width: 17rem;
+    padding-bottom: 0.5rem;
   }
+
+  /* @media (max-width: 767px) and (min-width: 374px) {
+    max-width: 10rem;
+  } */
 `;
 
 export const ContainerInfo = styled.div`

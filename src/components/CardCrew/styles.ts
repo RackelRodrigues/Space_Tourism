@@ -26,9 +26,9 @@ export const Container = styled.div`
     @media (max-width: 1024px) and (min-width: 610px) {
       display: flex;
       flex-direction: column;
-      /* align-items: center; */
       width: 100%;
-      padding: 0 0;
+      padding: 1rem 0 0 0;
+      gap: 1rem;
     }
 
     @media screen and (max-width: 609px) {
