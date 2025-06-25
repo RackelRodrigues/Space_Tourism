@@ -117,7 +117,7 @@ export const Description = styled.p`
 `;
 
 export const ExploreButton = styled.button`
-  width: clamp(8rem, 23vw, 20rem);
+  width: clamp(8rem, 23vw, 18rem);
   height: clamp(8rem, 17vw, 20rem);
   background-color: var(--white);
   color: var(--blue-900);
