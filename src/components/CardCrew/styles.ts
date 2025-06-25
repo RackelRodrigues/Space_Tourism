@@ -21,7 +21,6 @@ export const Container = styled.div`
     max-height: 70vh;
     gap: 0.5rem;
     padding-top: 2rem;
-    padding-bottom: 1.5rem;
 
     @media (max-width: 1224px) and (min-width: 610px) {
       display: flex;
@@ -147,6 +146,8 @@ export const ImagePerson = styled.img<Cardprop>`
   @media (max-width: 1024px) and (min-width: 610px) {
     max-width: ${({ name }) =>
       name === "Mark Shuttleworth" ? "17rem" : "18.5rem"};
+
+    align-self: center;
   }
   @media screen and (max-width: 609px) {
     display: flex;

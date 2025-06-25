@@ -165,8 +165,8 @@ export const Description = styled.p`
 `;
 
 export const ImageTechnology = styled.img`
-  width: 35rem;
-  height: 38rem;
+  width: 33rem;
+  height: 35rem;
   margin-left: auto;
   align-self: flex-end;
 

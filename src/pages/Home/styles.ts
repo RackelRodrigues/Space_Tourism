@@ -7,7 +7,7 @@ export const Background = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 2rem 0;
+  padding: 1rem 0 0 0;
 
   @media screen and (max-width: 1024px) and (min-width: 610px) {
     background-image: url("images/home/background-home-tablet.jpg");
@@ -29,7 +29,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 10rem;
+  padding: 0 8rem;
   position: absolute;
   bottom: 5rem;
   left: 0;
@@ -117,13 +117,13 @@ export const Description = styled.p`
 `;
 
 export const ExploreButton = styled.button`
-  width: 17rem;
-  height: 17rem;
+  width: clamp(8rem, 23vw, 20rem);
+  height: clamp(8rem, 17vw, 20rem);
   background-color: var(--white);
   color: var(--blue-900);
   font-family: var(--font-Bellefair);
   font-size: 2rem;
-  border-radius: 50%;
+  border-radius: 100%;
   cursor: pointer;
   transition: box-shadow 0.7s ease;
   &:hover {

@@ -6,8 +6,7 @@ export const Background = styled.div`
   background-image: url("images/crew/background-crew-desktop.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding: 2rem 0;
+  padding: 1rem 0 0 0;
 
   @media (max-width: 1024px) and (min-width: 610px) {
     background-image: url("images/crew/background-crew-tablet.jpg");
