@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-
-import { Container, BoxHeader, NavLink, Logo, Line } from "./styles";
+import { Container, BoxHeader, NavLink, Logo } from "./styles";
 import Sidebar from "../Sidebar";
 type Title = {
   number: string;
@@ -9,7 +8,6 @@ type Title = {
 
 interface Props {
   TitlePage?: Title[];
-  isActive?: string;
 }
 const Header: React.FC<Props> = ({ TitlePage }) => {
   const [isMobile, setIsMobile] = useState(false);
@@ -28,12 +26,11 @@ const Header: React.FC<Props> = ({ TitlePage }) => {
   return (
     <>
       <Container>
-        <Logo src="/src/assets/images/shared/logo.svg" alt="logo" />
+        <Logo src="/images/shared/logo.svg" alt="logo" />
         {isMobile ? (
           <Sidebar TitlePage={TitlePage} isMobile={isMobile} />
         ) : (
           <div className="Line">
-            <Line />
             <BoxHeader>
               {TitlePage?.map((title: Title) => (
                 <div key={title.number}>

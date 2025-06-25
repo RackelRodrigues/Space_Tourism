@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-interface StyleHeader {
-  isActive?: boolean;
-  namePage?: string;
-}
-
 export const Container = styled.header`
   display: flex;
   align-items: center;
@@ -57,7 +52,7 @@ export const BoxHeader = styled.div`
   }
 `;
 
-export const NavLink = styled.a<StyleHeader>`
+export const NavLink = styled.a`
   font-family: var(--font-Barlow);
   font-size: 1.3rem;
   font-weight: 300;
