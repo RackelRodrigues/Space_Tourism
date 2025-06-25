@@ -23,7 +23,7 @@ export const Container = styled.div`
     padding-top: 2rem;
     padding-bottom: 1.5rem;
 
-    @media (max-width: 1024px) and (min-width: 610px) {
+    @media (max-width: 1224px) and (min-width: 610px) {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -136,8 +136,7 @@ export const Bio = styled.p`
 export const ImagePerson = styled.img<Cardprop>`
   width: 100%;
   height: 100%;
-  max-width: ${({ name }) =>
-    name === "Mark Shuttleworth" ? "35rem" : "35rem"};
+  max-width: 35rem;
   max-height: ${({ name }) =>
     name === "Mark Shuttleworth" ? "35rem" : "40rem"};
   align-self: flex-end;

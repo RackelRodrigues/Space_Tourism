@@ -45,10 +45,10 @@ export const Container = styled.div`
     height: 100%;
     bottom: 0;
     z-index: 1;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 
     gap: 1rem;
-    height: 100vh;
+    /* height: 100vh; */
   }
   @media (max-width: 609px) {
     flex-direction: column;
@@ -70,6 +70,7 @@ export const Title = styled.h1`
   @media (max-width: 1024px) and (min-width: 610px) {
     margin: 1rem 0;
     text-align: center;
+    font-size: 5rem;
   }
 
   @media screen and (max-width: 609px) {
@@ -107,7 +108,7 @@ export const Description = styled.p`
 
   @media screen and (max-width: 1024px) and (min-width: 610px) {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 35rem;
   }
 
@@ -133,8 +134,9 @@ export const ExploreButton = styled.button`
     color: var(--blue-900);
   }
   @media (max-width: 1024px) and (min-width: 610px) {
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 13rem;
+    margin-top: 1rem;
   }
   @media screen and (max-width: 609px) {
     width: 9rem;

@@ -5,9 +5,7 @@ import data from "../../server/data.json";
 import { Background, Container } from "./styles";
 import CardPlanet from "../../components/CardPlanets";
 
-interface Props {}
-
-const Destination: React.FC<Props> = () => {
+const Destination: React.FC = () => {
   return (
     <>
       <Background>

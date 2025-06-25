@@ -44,6 +44,7 @@ export const BoxHeader = styled.div`
     font-weight: bold;
     font-size: 1.3rem;
     margin-right: 0.2rem;
+    cursor: pointer;
   }
 
   @media (max-width: 1024px) {
@@ -87,7 +88,7 @@ export const Line = styled.hr`
   background-color: #979797;
   margin: 1rem 0;
   z-index: 100;
-  @media screen and (min-width: 610px) and (max-width: 1025px) {
+  @media screen and (min-width: 610px) and (max-width: 1225px) {
     display: none;
   }
 

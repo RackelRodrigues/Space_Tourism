@@ -8,8 +8,10 @@ import {
 } from "./styles";
 import Header from "../../components/Header";
 import Titles from "../../server/Titles.json";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <Background>
       <Header TitlePage={Titles} />
@@ -24,7 +26,13 @@ const Home = () => {
             world experience!
           </Description>
         </div>
-        <ExploreButton>EXPLORE</ExploreButton>
+        <ExploreButton
+          onClick={() => {
+            navigate("/destination");
+          }}
+        >
+          EXPLORE
+        </ExploreButton>
       </Container>
     </Background>
   );

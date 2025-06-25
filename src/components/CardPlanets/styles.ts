@@ -66,6 +66,7 @@ export const Navegation = styled.div`
   @media (max-width: 1024px) and (min-width: 610px) {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 1rem 0;
   }
   @media screen and (max-width: 609px) {
