@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <Background>
       <Header TitlePage={Titles} />
-      <Container>
+      <Container role="main">
         <div>
           <Subtitle>SO, YOU WANT TO TRAVEL TO</Subtitle>
           <Title>SPACE</Title>
@@ -27,6 +27,7 @@ const Home = () => {
           </Description>
         </div>
         <ExploreButton
+          aria-label="Go page destination"
           onClick={() => {
             navigate("/destination");
           }}

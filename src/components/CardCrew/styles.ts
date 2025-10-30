@@ -145,7 +145,7 @@ export const ImagePerson = styled.img<Cardprop>`
   }
   @media (max-width: 1024px) and (min-width: 610px) {
     max-width: ${({ name }) =>
-      name === "Mark Shuttleworth" ? "17rem" : "18.5rem"};
+      name === "Mark Shuttleworth" ? "20rem" : "18.5rem"};
 
     align-self: center;
   }

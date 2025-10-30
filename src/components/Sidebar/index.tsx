@@ -24,7 +24,10 @@ export const Sidebar: React.FC<Props> = ({ TitlePage }) => {
   return (
     <>
       <ContainerButton>
-        <ButtonMenu onClick={() => setIsOpen(!isOpen)}>
+        <ButtonMenu
+          aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+          onClick={() => setIsOpen(!isOpen)}
+        >
           {isOpen ? (
             <RiCloseLargeLine size={30} color="#fff" />
           ) : (
@@ -36,7 +39,7 @@ export const Sidebar: React.FC<Props> = ({ TitlePage }) => {
         {isOpen && (
           <div className="ContainerNav">
             {TitlePage?.map((Title) => (
-              <ContainerUrl key={Title.number}>
+              <ContainerUrl key={Title.number} role="navigation">
                 <strong className="Number">{Title.number}</strong>
                 <NavLink
                   href={

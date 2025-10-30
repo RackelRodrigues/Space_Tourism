@@ -30,10 +30,10 @@ const Header: React.FC<Props> = ({ TitlePage }) => {
         {isMobile ? (
           <Sidebar TitlePage={TitlePage} isMobile={isMobile} />
         ) : (
-          <div className="Line">
+          <div className="Line" role="header">
             <BoxHeader>
               {TitlePage?.map((title: Title) => (
-                <div key={title.number}>
+                <div key={title.number} role="navigation">
                   <strong className="Number">{title.number}</strong>
                   <NavLink
                     href={
